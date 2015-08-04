@@ -1,0 +1,5 @@
+Resultados do cooc:
+
+-Usando somente matriz 0 grau
+-d=1
+-parametros manuais

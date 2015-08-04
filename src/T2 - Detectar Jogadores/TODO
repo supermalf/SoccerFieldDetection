@@ -1,0 +1,39 @@
+
+
+Meida para imagem _img.tga
+
+16 cores
+
+21x21 - 0.04
+11x11 - 0.03
+9x9 - 0.06
+5x5 - 0.06
+
+64cores
+
+9x9 - 
+
+=====
+Imagem 2 - Canto esq4
+
+imd? - 16c - 5x5 - 0.035
+variance - 16c - 5x5 - 0.9
+
+
+VARIANCE 11x11 - 16c:
+
+      if (sel_feature < 20.0)
+        paintSel[j][i] = PAINT_COLOR_FIELD;
+
+      else if((sel_feature >= 20.0) && ((sel_feature < 100.0)))
+        paintSel[j][i] = PAINT_COLOR_LINE;
+
+      else if (sel_feature >= 100.0)
+        paintSel[j][i] = PAINT_COLOR_PLAYER;
+        
+VARIANCE 11x11 - 16c:     
+      if (sel_feature < 4.1)
+        paintSel[j][i] = PAINT_COLOR_FIELD;
+
+      else if(sel_feature >= 4.1)
+        paintSel[j][i] = PAINT_COLOR_PLAYER;

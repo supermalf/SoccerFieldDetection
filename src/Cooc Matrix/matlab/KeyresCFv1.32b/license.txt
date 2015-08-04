@@ -1,0 +1,101 @@
+Product: "KeyRes Co-Occurence Features" Software. 
+ 
+Copyright 2005-2006 by:
+ 
+Dr.Ing. Angelo Zizzari
+P.le Roberto Ardigò, 42
+00142 Roma
+Italy
+ 
+E-mail: studio.zizzari@tiscali.it
+ 
+All rights reserved.
+ 
+ 
+This license applies to the evaluation version of "KeyRes Co-Occurence Features".
+ 
+LICENSE AGREEMENT
+ 
+You should carefully read the following terms and conditions before using this 
+software. Unless you have a different license agreement signed by Dr.Zizzari, 
+your use of this software indicates your acceptance of this license agreement 
+and warranty.
+ 
+EVALUATION and REGISTRATION
+ 
+This is not free software.  Subject to the terms below, you are hereby licensed 
+to use this software for evaluation purposes without charge for a period indicated
+during software start-up.  
+In the evaluation version of this software some functionalities have been disabled,
+and there is no documentation.
+ 
+If you use this software after the evaluation period, a registration fee is 
+required. Payments must be in Euros drawn on a italian bank, and should be sent 
+to Dr.-Ing. Angelo Zizzari - P.le Roberto Ardigò, 42 - 00142 Roma, Italy.
+With reference to the amount of fees and other information, you should refer 
+to the following website:
+ 
+http://www.keyres-technologies.com/
+ 
+Before payment you should contact Dr.Zizzari in advance, at the above indicated 
+e-mail address, in order to receive further information.
+ 
+When payment is received you will be sent a registered copy of the latest version 
+of "KeyRes Co-Occurence Features" software with full, active functionalities and 
+documentation.
+
+ 
+You may not alter or modify the Software and cannot give anyone else permission 
+to modify the Software.  
+UNDER NO CIRCUMSTANCES ARE YOU LICENSED TO DISTRIBUTE THE FULL VERSION OF 
+"KEYRES CO-OCCURRENCE FEATURES" SOFTWARE.
+ 
+Unregistered use of "KeyRes Co-Occurence Features" after the evaluation period 
+is in violation of Italian and international copyright laws.
+ 
+GOVERNING LAW
+This agreement shall be governed by the laws of European Union and Italy.
+ 
+DISCLAIMER OF WARRANTY
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD “AS IS” AND WITHOUT WARRANTIES 
+AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED 
+OR IMPLIED.
+Because of the various hardware and software environments into which this software
+may be put, NO WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE IS OFFERED.
+ 
+Good data processing procedure dictates that any program be thoroughly tested 
+with non-critical data before relying on it. The user must assume the entire risk 
+of using the program.
+ 
+ANY LIABILITY OF THE SELLER WILL BE LIMITED EXCLUSIVELY TO PRODUCT REPLACEMENT 
+OR REFUND OF PURCHASE PRICE.
+ 
+DISTRIBUTION OF EVALUATION VERSION
+Provided that you verify that you are distributing the evaluation version 
+you are hereby licensed to make as many copies of the evaluation version of this 
+software as you wish; and distribute the evaluation version of the software 
+in its unmodified form via electronic means. 
+There is no charge for any of the above. 
+You are specifically prohibited from charging, or requesting donations, for any 
+such copies, however made; and from distributing the software and/or documentation 
+with other products (commercial or otherwise) without prior written permission.
+ 
+SCIENTIFIC PUBLICATIONS AND PATENT APPLICATIONS
+In case of scientific publication of results obtained using this software, 
+you must include in your paper the following sentence:
+"These results have been obtained using the "KeyRes Co-Occurence Features" Software 
+of Dr. Angelo Zizzari".
+THIS IS SPECIFICALLY MANDATORY FOR SCIENTIFIC JOURNALS, CONFERENCE PROCEEDINGS,
+PATENT APPLICATIONS AND ANY OTHER FORM OF PUBLICATION, ACADEMIC OR COMMERCIAL.
+
+THIRD PARTIES SOFTWARE
+KeyRes Co-Occurence Features Software requires the Matlab(R) Component RunTime. 
+MATLAB and MATLAB Component RunTime are respective Trademarks of The Matworks, Inc.
+This software is provided according to the Matlab Application Deployment Program.
+
+The user must agree and respect the conditions of use of the MATLAB Component RunTime 
+as specified by The Matworks, Inc. (www.mathworks.com).
+
+
+
+

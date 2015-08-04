@@ -1,0 +1,117 @@
+
+An unexpected exception has been detected in native code outside the VM.
+Unexpected Signal : EXCEPTION_ACCESS_VIOLATION occurred at PC=0x6d043c7a
+Function name=Java_sun_java2d_loops_DefaultComponent_IntIsomorphicCopy
+Library=C:\MATLAB6p5\sys\java\jre\win32\jre\bin\awt.dll
+
+Current Java thread:
+	at sun.java2d.loops.DefaultComponent.IntIsomorphicCopy(Native Method)
+	at sun.java2d.loops.IntRgbToIntRgb.OpaqueBlit(Unknown Source)
+	at sun.java2d.loops.RasterOutputManager.performOpaqueBlit(Unknown Source)
+	at sun.java2d.loops.RasterOutputManager.compositeSrcDst(Unknown Source)
+	at sun.java2d.loops.RasterOutputManager.renderImage(Unknown Source)
+	at sun.java2d.SunGraphics2D.renderingPipeImage(Unknown Source)
+	at sun.java2d.SunGraphics2D.drawImage(Unknown Source)
+	at sun.java2d.SunGraphics2D.drawImage(Unknown Source)
+	at sun.awt.windows.WGraphics.drawImage(Unknown Source)
+	at sun.awt.windows.WGraphics.drawImage(Unknown Source)
+	at com.mathworks.util.Offscreen.finishRender(Offscreen.java:212)
+	at com.mathworks.ide.editor.LineNumberDisplay.paint(LineNumberDisplay.java:371)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.mwt.MWPanel.bufferedPaint(MWPanel.java:307)
+	at com.mathworks.mwt.MWPanel.paint(MWPanel.java:336)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.mwt.MWPanel.bufferedPaint(MWPanel.java:307)
+	at com.mathworks.mwt.MWPanel.paint(MWPanel.java:336)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.mwt.MWPanel.bufferedPaint(MWPanel.java:307)
+	at com.mathworks.mwt.MWPanel.paint(MWPanel.java:336)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.ide.desktop.DTClientFrame.paint(DTClientFrame.java:1189)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.mwt.MWPanel.bufferedPaint(MWPanel.java:307)
+	at com.mathworks.mwt.MWPanel.paint(MWPanel.java:336)
+	at java.awt.GraphicsCallback$PaintCallback.run(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runOneComponent(Unknown Source)
+	at sun.awt.SunGraphicsCallback.runComponents(Unknown Source)
+	at java.awt.Container.paint(Unknown Source)
+	at com.mathworks.mwt.MWFrame.paint(MWFrame.java:1223)
+	at sun.awt.RepaintArea.paint(Unknown Source)
+	at sun.awt.windows.WComponentPeer.handleEvent(Unknown Source)
+	at java.awt.Component.dispatchEventImpl(Unknown Source)
+	at java.awt.Container.dispatchEventImpl(Unknown Source)
+	at java.awt.Window.dispatchEventImpl(Unknown Source)
+	at java.awt.Component.dispatchEvent(Unknown Source)
+	at java.awt.EventQueue.dispatchEvent(Unknown Source)
+	at java.awt.EventDispatchThread.pumpOneEventForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.awt.EventDispatchThread.run(Unknown Source)
+
+Dynamic libraries:
+0x00400000 - 0x00418000 	C:\MATLAB6p5\bin\win32\meditor.exe
+0x7C900000 - 0x7C9B0000 	C:\WINDOWS\system32\ntdll.dll
+0x7C800000 - 0x7C8F4000 	C:\WINDOWS\system32\kernel32.dll
+0x77D40000 - 0x77DD0000 	C:\WINDOWS\system32\USER32.dll
+0x77F10000 - 0x77F57000 	C:\WINDOWS\system32\GDI32.dll
+0x74720000 - 0x7476B000 	C:\WINDOWS\system32\MSCTF.dll
+0x77C10000 - 0x77C68000 	C:\WINDOWS\system32\msvcrt.dll
+0x77DD0000 - 0x77E6B000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77E70000 - 0x77F01000 	C:\WINDOWS\system32\RPCRT4.dll
+0x6D420000 - 0x6D4EE000 	c:\matlab6p5\sys\java\jre\win32\jre\bin\hotspot\jvm.dll
+0x76B40000 - 0x76B6D000 	C:\WINDOWS\system32\WINMM.dll
+0x6D220000 - 0x6D227000 	c:\matlab6p5\sys\java\jre\win32\jre\bin\hpi.dll
+0x6D3B0000 - 0x6D3BD000 	c:\matlab6p5\sys\java\jre\win32\jre\bin\verify.dll
+0x6D250000 - 0x6D266000 	c:\matlab6p5\sys\java\jre\win32\jre\bin\java.dll
+0x6D3C0000 - 0x6D3CD000 	c:\matlab6p5\sys\java\jre\win32\jre\bin\zip.dll
+0x6D020000 - 0x6D128000 	C:\MATLAB6p5\sys\java\jre\win32\jre\bin\awt.dll
+0x73000000 - 0x73026000 	C:\WINDOWS\system32\WINSPOOL.DRV
+0x76390000 - 0x763AD000 	C:\WINDOWS\system32\IMM32.dll
+0x774E0000 - 0x7761D000 	C:\WINDOWS\system32\ole32.dll
+0x6D1E0000 - 0x6D21B000 	C:\MATLAB6p5\sys\java\jre\win32\jre\bin\fontmanager.dll
+0x69500000 - 0x69A37000 	C:\WINDOWS\system32\nvoglnt.dll
+0x7AF50000 - 0x7AF64000 	C:\MATLAB6p5\bin\win32\nativejava.dll
+0x763B0000 - 0x763F9000 	C:\WINDOWS\system32\comdlg32.dll
+0x77F60000 - 0x77FD6000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x5D090000 - 0x5D127000 	C:\WINDOWS\system32\COMCTL32.dll
+0x7C9C0000 - 0x7D1D5000 	C:\WINDOWS\system32\SHELL32.dll
+0x773D0000 - 0x774D2000 	C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.2600.2180_x-ww_a84f1ff9\comctl32.dll
+0x605D0000 - 0x605D9000 	C:\WINDOWS\system32\mslbui.dll
+0x77120000 - 0x771AC000 	C:\WINDOWS\system32\OLEAUT32.DLL
+0x73760000 - 0x737A9000 	C:\WINDOWS\system32\ddraw.dll
+0x73BC0000 - 0x73BC6000 	C:\WINDOWS\system32\DCIMAN32.dll
+0x76C90000 - 0x76CB8000 	C:\WINDOWS\system32\imagehlp.dll
+0x59A60000 - 0x59B01000 	C:\WINDOWS\system32\DBGHELP.dll
+0x77C00000 - 0x77C08000 	C:\WINDOWS\system32\VERSION.dll
+0x76BF0000 - 0x76BFB000 	C:\WINDOWS\system32\PSAPI.DLL
+
+Local Time = Tue May 16 18:47:33 2006
+Elapsed Time = 39
+#
+# The exception above was detected in native code outside the VM
+#
+# Java VM: Java HotSpot(TM) Client VM (1.3.1_01 mixed mode)
+#
